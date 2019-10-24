@@ -2,8 +2,13 @@ $( "document" ).ready(function() { //this helps your jQuery to work. Write all o
 
 
 
-  
-  
-  
-  
+
+
+
+
+});
+
+$("#button").click(function() {
+    let yuh = $("#input").val();
+    $(".output").text(yuh);
 });
